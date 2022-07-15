@@ -1,5 +1,6 @@
 {
   "name": "image-gallery",
+  "homepage": "https://GRAviTY-GAGAN.github.io/image-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.7.6",
+    "gh-pages": "^4.0.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   }
