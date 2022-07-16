@@ -91401,6 +91401,7 @@ video {
   }
 }
 
+/* 
 @media screen and (max-width: 700px) {
   .grid2{
     display: grid;
@@ -91418,11 +91419,11 @@ video {
     grid-template-columns: 1fr;
     /* margin-left: auto;
     margin-right: auto; */
-  }
+  /* } */
 
-  .center{
+  /* .center{
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px 0 10px;
   }
-}
+} */ 
