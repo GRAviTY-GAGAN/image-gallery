@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css1.css';
 
 const ImageCard = ({ image }) => {
     const tags = image.tags.split(',');
